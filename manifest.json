@@ -1,0 +1,26 @@
+{
+  "name": "Getting Started Example",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/supi16.png",
+      "32": "/images/supi32.png",
+      "48": "/images/supi48.png",
+      "128": "/images/supi128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/supi16.png",
+    "32": "/images/supi32.png",
+    "48": "/images/supi48.png",
+    "128": "/images/supi128.png"
+  },
+  "options_page": "options.html"
+}
